@@ -1,0 +1,36 @@
+{
+    "version": "https://schema.openattestation.com/2.0/schema.json",
+    "data": {
+      "$template": {
+        "name": "a66a8951-44ba-47e8-b5e9-4cc5f928dd2b:string:KrisnaBaccII_TEMPLATE",
+        "type": "a01ef253-29d9-44aa-a36f-fb347c0ac62f:string:EMBEDDED_RENDERER",
+        "url": "97fe5917-7056-48dd-8d11-b63e9be5fd3e:string:https://precious-pithivier-780457.netlify.app/"
+      },
+      "recipient": {
+        "name": "ec691ed9-c256-40cc-8425-39efb7d8f024:string:Krisna",
+        "address": "7920d210-87b2-4aad-a48f-687a8ca1f213:string:DGC Phnom Penh Cambodia"
+      },
+      "asset": {
+        "type": "4919a229-36a6-4171-b8c5-6c907316033c:string:Car",
+        "model": "08e7d7d8-bae1-427b-960f-c3d6b644a6b8:string:Toyota",
+        "issuDate": "4add70a4-01e7-42e9-85ab-05b685fae33d:string:27-02-2023",
+        "image": "4c783e7e-7a3b-45b0-8857-d32494319832:string:https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200"
+      },
+      "issuers": [
+        {
+          "name": "e258ee8f-bdb7-41b2-9cfb-8c4edeb573ab:string:Krisna.co.ltd",
+          "tokenRegistry": "4df042c1-9be1-4742-a6fe-6ad9a91b3591:string:0x8E82733684a4010C59455eCcF473258266cC6b1E",
+          "identityProof": {
+            "type": "147abc9d-07b5-4f1a-a88c-eb1e235841b1:string:DNS-TXT",
+            "location": "953ff9dc-9d41-4aea-9175-daa6319e7d7b:string:krisna.lol"
+          }
+        }
+      ]
+    },
+    "signature": {
+      "type": "SHA3MerkleProof",
+      "targetHash": "6b51e1fbbf8a6bcf1e779d7b34dc2429e3e0f0cd25a23f621b490ae462cde9f1",
+      "proof": [],
+      "merkleRoot": "6b51e1fbbf8a6bcf1e779d7b34dc2429e3e0f0cd25a23f621b490ae462cde9f1"
+    }
+  }

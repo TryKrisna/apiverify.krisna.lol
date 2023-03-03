@@ -34,6 +34,11 @@ curl --location --request POST 'localhost:3000/dev/verify' \
 --data-binary '@./fixtures/pdt_pcr_notarized_with_nric_wrapped.json'
 ```
 
+curl --location --request POST 'localhost:3000/dev/verify' \
+--header 'Content-Type: application/json' \
+--data-binary '@./fixtures/asset.json'
+
+
 **Sample response**:
 
 ```jsonc
@@ -51,3 +56,8 @@ curl --location --request POST 'localhost:3000/dev/verify' \
   "diagnostics": []
 }
 ```
+
+
+curl --location --request POST 'localhost:3000/dev/verify' \
+--header 'Content-Type: application/json' \
+--data-binary '@./fixtures/asset.json

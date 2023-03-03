@@ -73,13 +73,16 @@ describe("verifyAllowedIssuers", () => {
         issuers: [
           {
             name: "name",
-            documentStore: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-            identityProof: { location: "test.gov.sg", type: v2.IdentityProofType.DNSTxt },
+            documentStore: "0x8E82733684a4010C59455eCcF473258266cC6b1E",
+            identityProof: { location: "krisna.lol", type: v2.IdentityProofType.DNSTxt },
           },
         ],
       },
       ...v2DocumentShared,
     });
+
+    // documentStore: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    //         identityProof: { location: "test.gov.sg", type: v2.IdentityProofType.DNSTxt },
 
     expect(fragments).toMatchInlineSnapshot(`
       Array [
